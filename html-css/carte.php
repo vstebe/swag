@@ -12,9 +12,7 @@
         ?>
 
         <div class="container-fluid">
-			<header>
-				<h1>Humanitaire 2.0 <span>Une phrase de slogan pour la <a href="#">Nuit de l'info</a> à Strasbourg</span></h1>	
-			</header> <!-- /container -->
+            <div id="map-modification" style="width: 100%; height: 500px"></div>
         </div>
 
         <?php
