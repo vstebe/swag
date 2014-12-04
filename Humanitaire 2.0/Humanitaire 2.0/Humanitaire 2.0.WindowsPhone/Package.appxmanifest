@@ -1,11 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Package xmlns="http://schemas.microsoft.com/appx/2010/manifest" xmlns:m2="http://schemas.microsoft.com/appx/2013/manifest" xmlns:m3="http://schemas.microsoft.com/appx/2014/manifest" xmlns:mp="http://schemas.microsoft.com/appx/2014/phone/manifest">
 
-  <Identity Name="d5eda1a4-a258-4413-af69-ca817dc4d2a6"
+  <Identity Name="81136e04-b973-40ec-b120-1496bf19bed2"
             Publisher="CN=léo"
             Version="1.0.0.0" />
 
-  <mp:PhoneIdentity PhoneProductId="d5eda1a4-a258-4413-af69-ca817dc4d2a6" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
+  <mp:PhoneIdentity PhoneProductId="81136e04-b973-40ec-b120-1496bf19bed2" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
 
   <Properties>
     <DisplayName>Humanitaire 2.0.WindowsPhone</DisplayName>
