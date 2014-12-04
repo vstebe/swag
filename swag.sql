@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Client :  127.0.0.1
--- Généré le :  Jeu 04 Décembre 2014 à 22:24
+-- Généré le :  Jeu 04 Décembre 2014 à 22:27
 -- Version du serveur :  5.6.17
 -- Version de PHP :  5.5.12
 
@@ -28,8 +28,8 @@ SET time_zone = "+00:00";
 
 CREATE TABLE IF NOT EXISTS `centre` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
-  `coordonnéX` float NOT NULL,
-  `coordonnéY` float NOT NULL,
+  `coordonneX` float NOT NULL,
+  `coordonneY` float NOT NULL,
   `nom` varchar(255) NOT NULL,
   `type` varchar(255) NOT NULL,
   PRIMARY KEY (`id`),
@@ -41,7 +41,7 @@ CREATE TABLE IF NOT EXISTS `centre` (
 -- Contenu de la table `centre`
 --
 
-INSERT INTO `centre` (`id`, `coordonnéX`, `coordonnéY`, `nom`, `type`) VALUES
+INSERT INTO `centre` (`id`, `coordonneX`, `coordonneY`, `nom`, `type`) VALUES
 (1, 57.04, 37.8954, 'centre du ghanna', 'DEPISTAGE'),
 (2, 58.0548, 38.5485, 'centre 13', 'VACCINATION'),
 (5, 58.0585, 36.845, 'centre swag', 'DEPISTAGE'),
@@ -178,8 +178,8 @@ INSERT INTO `utilisateurs` (`id`, `login`, `password`) VALUES
 
 CREATE TABLE IF NOT EXISTS `zoneepidemie` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
-  `coordonnéX` float NOT NULL,
-  `coordonnéY` float NOT NULL,
+  `coordonneX` float NOT NULL,
+  `coordonneY` float NOT NULL,
   `radius` int(11) NOT NULL,
   `fk_maladie` int(11) NOT NULL,
   PRIMARY KEY (`id`)
@@ -189,7 +189,7 @@ CREATE TABLE IF NOT EXISTS `zoneepidemie` (
 -- Contenu de la table `zoneepidemie`
 --
 
-INSERT INTO `zoneepidemie` (`id`, `coordonnéX`, `coordonnéY`, `radius`, `fk_maladie`) VALUES
+INSERT INTO `zoneepidemie` (`id`, `coordonneX`, `coordonneY`, `radius`, `fk_maladie`) VALUES
 (1, 58.5, 39, 20, 1),
 (2, 57, 30, 10, 2);
 
