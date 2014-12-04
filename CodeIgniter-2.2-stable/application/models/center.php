@@ -1,6 +1,6 @@
 <?php
 
-	class center {
+	class Center {
 
 		private $_id;
 		private $_name;
@@ -92,7 +92,7 @@
 		$centres = array();
 		$q = self::$_db->query('SELECT * FROM centre');
 			while ($data = $q->fetch(PDO::FETCH_ASSOC)) {
-				$centres[] = new center($data["id"], $data["nom"], $data["coordonneX"], $data["coordonneY"], $data["type"]); 
+				$centres[] = new Center($data["id"], $data["nom"], $data["coordonneX"], $data["coordonneY"], $data["type"]); 
 			}
 			return $centres;
 		} 
@@ -106,3 +106,4 @@
 		}
 
 	}
+?>
