@@ -64,7 +64,7 @@
 			return $this->_longitude;
 		}
 
-		public function get_latititude(){
+		public function get_latitude(){
 			return $this->_latitude;
 		}
 
@@ -81,7 +81,7 @@
 			$q = self::$_db->prepare('INSERT INTO centre SET nom=:n, coordonneX=:x, coordonneY=:y, type=:t');
 			$q->bindValue(':n', $this->get_name(), PDO::PARAM_STR);
 			$q->bindValue(':x', $this->get_longitude(), PDO::PARAM_INT);
-			$q->bindValue(':y', $this->get_latititude(), PDO::PARAM_INT);
+			$q->bindValue(':y', $this->get_latitude(), PDO::PARAM_INT);
 			$q->bindValue(':t', $this->get_type(), PDO::PARAM_STR);
 			$q->execute();
 
