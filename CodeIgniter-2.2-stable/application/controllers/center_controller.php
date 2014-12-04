@@ -1,14 +1,14 @@
 <?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
 
-//require_once 'application/models/center.php';
-
-class Center extends CI_Controller {
+class Center_Controller extends CI_Controller {
 
 	public function __construct()
 	{
 		parent::__construct();
-		//$this->load->model("Center");
-		center::set_db(new PDO('mysql:host=localhost;dbname=swag','root','root'));
+		echo "string1";
+		$this->load->model("Center_Model");
+		echo "string2";
+		// center::set_db(new PDO('mysql:host=localhost;dbname=swag','root','root'));
 	}
 
 	public function coucou() {
