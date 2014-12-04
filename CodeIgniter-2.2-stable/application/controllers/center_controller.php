@@ -5,16 +5,13 @@ class Center_Controller extends CI_Controller {
 	public function __construct()
 	{
 		parent::__construct();
-		echo "string1";
 		$this->load->model("Center_Model");
-		echo "string2";
-		// center::set_db(new PDO('mysql:host=localhost;dbname=swag','root','root'));
+		Center_Model::set_db(new PDO('mysql:host=localhost;dbname=swag','root',''));
+
 	}
 
 	public function coucou() {
-		echo "string";
-		$string = read_file('./path/to/file.php');
-		$chaine2 = file_exists("upload/$id.jpg");
+
 		$this->load->view('welcome_message');
 	}
 
@@ -25,19 +22,19 @@ class Center_Controller extends CI_Controller {
 
 	public function read()
 	{
-		$tab_all_centers = center::read();
+		$tab_all_centers = Center_Model::read();
 		$outp = "[";
-		while($rs = $tab_all_centers->fetch_array()) {
-			if ($outp != "[") 
-				$outp .= ",";
-			$outp .= '{"Name":"'  . $rs.get_name() . '",';
-			$outp .= '"Longitude":"' . $rs.get_longitude() . '",';
-			$outp .= '"Latitude":"'. $rs.get_latitude() . '"}';
-			$outp .= '"Type":"'. $rs.get_type() . '"}';
+		foreach($tab_all_centers as $value) {
+			/*if ($outp != "[") 
+				$outp .= ",";*/
+			echo $value->get_name();
+			echo "bla";
+			/*$outp .= '{"Name":"'  . $value->get_name() . '",';
+			$outp .= '"Longitude":"' . $value->get_longitude() . '",';
+			$outp .= '"Latitude":"'. $value->get_latitude() . '"}';
+			$outp .= '"Type":"'. $value->get_type() . '"}';*/
 		}
 		$outp .="]";
-		$conn->close();
-
 		echo($outp);
 	}
 
