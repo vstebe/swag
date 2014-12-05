@@ -44,8 +44,10 @@ CREATE TABLE IF NOT EXISTS `centre` (
 INSERT INTO `centre` (`id`, `coordonneX`, `coordonneY`, `nom`, `type`) VALUES
 (1, 57.04, 37.8954, 'centre du ghanna', 'DEPISTAGE'),
 (2, 58.0548, 38.5485, 'centre 13', 'VACCINATION'),
-(5, 58.0585, 36.845, 'centre swag', 'DEPISTAGE'),
-(6, 58.0585, 36.845, 'centre swag', 'VACCINATION');
+(3, 48.617511, 7.734178, 'Centre de Prevention et de Depistage Dentaire', 'DEPISTAGE'),
+(4, 48.577638, 7.744464, 'Centre de vaccinations internationales', 'VACCINATION'),
+(5, -23.443164, -46.666952, 'Vaccin Centro de Infectologia e Imunizacao', 'VACCINATION'),
+(6, 17.962338, 102.615582, 'Institut Francophone de Medecine Tropicale', 'DEPISTAGE');
 
 -- --------------------------------------------------------
 
@@ -69,8 +71,9 @@ INSERT INTO `maladie` (`id`, `nom`) VALUES
 (2, 'VIH'),
 (3, 'angine'),
 (4, 'grippe'),
-(8, 'rougeole'),
-(7, 'peste');
+(5, 'rougeole'),
+(6, 'peste'),
+(7, 'VIH1N1');
 
 -- --------------------------------------------------------
 
@@ -93,8 +96,8 @@ INSERT INTO `maladiecentre` (`fk_maladie`, `fk_centre`) VALUES
 (1, 2),
 (1, 3),
 (2, 1),
-(7, 3),
-(8, 3);
+(4, 3),
+(7, 5);
 
 -- --------------------------------------------------------
 
@@ -142,12 +145,13 @@ CREATE TABLE IF NOT EXISTS `symptome` (
 --
 
 INSERT INTO `symptome` (`id`, `nom`) VALUES
-(1, 'fièvre'),
+(1, 'fievre'),
 (2, 'douleur au bras'),
 (3, 'plaques rouges'),
 (4, 'courbature'),
 (5, 'mal au ventre'),
-(6, 'teint blanchâtre');
+(6, 'mal de tete'),
+(7, 'teint blanchâtre');
 
 -- --------------------------------------------------------
 
@@ -191,7 +195,11 @@ CREATE TABLE IF NOT EXISTS `zoneepidemie` (
 
 INSERT INTO `zoneepidemie` (`id`, `coordonneX`, `coordonneY`, `radius`, `fk_maladie`) VALUES
 (1, 58.5, 39, 20, 1),
-(2, 57, 30, 10, 2);
+(2, 57, 30, 10, 2),
+(3, 43.509151, 16.451947, 200, 4),
+(4, 46.141239, 5.432379, 50, 3),
+(3, 29.985721, -95.405027, 300, 4);
+
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;

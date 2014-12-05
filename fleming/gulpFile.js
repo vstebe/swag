@@ -3,7 +3,7 @@ var gulp = require('gulp'),
 	concat = require('gulp-concat'),
 	uglify = require('gulp-uglify');
 
-var jsSrc = ['app/app.js', 'app/directives/**/*.js', 'app/services/**/*.js', 'app/route.js'];
+var jsSrc = ['app/app.js', 'app/services/**/*.js', 'app/directives/**/*.js'];
 
 gulp.task('clean', function(cb) {
 	  del(['js/app.min.js'], cb);

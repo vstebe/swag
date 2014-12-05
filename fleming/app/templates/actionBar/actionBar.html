@@ -1,0 +1,11 @@
+
+	<div ng-repeat="action in actions" ng-class="{'opaque': action.type === 'diagnostic' && action.beBar}">
+		<button class="action-circle {{action.type}}" ng-click="toggleBar(action)" ng-class="{'big': initAnim, 'to-left': !secondAnim, 'be-bar': action.beBar}">
+			{{ action.title }}
+		</button>
+		<div>
+			<div ng-if="action.type === 'diagnostic'" class="container" ng-class="{'show': action.beBar, 'diagnostic': action.type === 'diagnostic'}">
+				<diagnostic></diagnostic>
+			</div>
+		</div>
+	</div>
