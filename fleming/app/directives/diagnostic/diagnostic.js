@@ -41,10 +41,16 @@ angular.module('fleming')
 				                       symptomsConfirmed = [];
 				                     
 				                       scope.symptoms.forEach(function(s) {
-				                 	  if(s.checked) {
-				                 	      symptomsConfirmed.push(s.id);
-				                 	  }
+					                 	  if(s.checked) {
+					                 	      symptomsConfirmed.push(s.id);
+					                 	  }
 				                       });
+				                       if (angular.equals(symptomsConfirmed,[])) {
+				                    	   scope.howTo = true;
+				                    	   scope.matchingDiseases = [];
+				                    	   scope.diagnosticOk = false;
+				                       } else {
+				                    	   scope.howTo = false;
 				                       symptomsConfirmed.sort();
 				                       
 				                       scope.matchingDiseases = [];
@@ -57,6 +63,7 @@ angular.module('fleming')
 				                       });
 				                       
 				                       scope.diagnosticOk = scope.matchingDiseases.length==0;
+				                       }
 				                   }
 				                   
 				                   				

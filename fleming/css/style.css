@@ -163,3 +163,7 @@ button.button-positive:hover{
 .dont-stick-bottom {
 	margin-bottom: 20px;
 }
+
+.notice {
+	color: #2196F3;
+}
