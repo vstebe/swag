@@ -1,0 +1,40 @@
+<ion-view title="Diagnostic">
+  <ion-nav-buttons side="left">
+    <button menu-toggle="left" class="button button-icon icon ion-navicon"></button>
+  </ion-nav-buttons>
+  <ion-content class="has-header">
+	<ul class="list">
+
+  <li class="item item-checkbox" ng-repeat="s in symptoms">
+     <label class="checkbox">
+       <input type="checkbox" ng-model="s.checked">
+     </label>
+     {{s.name}}
+  </li>
+
+
+</ul>
+
+<button class="button button-block button-positive" ng-click="doDiagnostic()">
+  Faire un diagnostic
+</button>
+
+
+<div class="card" ng-show="matchingDiseases.length >0">
+  <div class="item item-text-wrap warning">
+    <img src="img/alert.png" alt="warning" />
+    Attention : les symptômes correspondent avec les maladies :
+    <ul>
+      <li ng-repeat="m in matchingDiseases">{{m.name}}</li>
+    </ul>
+  </div>
+</div>
+
+<div class="card" ng-show="diagnosticOk">
+  <div class="item item-text-wrap">
+    Les symptômes ne correpondent à aucune maladie connue.
+  </div>
+</div>
+
+  </ion-content>
+</ion-view>

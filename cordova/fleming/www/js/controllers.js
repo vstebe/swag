@@ -33,16 +33,104 @@ angular.module('starter.controllers', [])
   };
 })
 
-.controller('PlaylistsCtrl', function($scope) {
-  $scope.playlists = [
-    { title: 'Reggae', id: 1 },
-    { title: 'Chill', id: 2 },
-    { title: 'Dubstep', id: 3 },
-    { title: 'Indie', id: 4 },
-    { title: 'Rap', id: 5 },
-    { title: 'Cowbell', id: 6 }
-  ];
-})
+.controller('MapCtrl', ['$scope', '$http', 'Config', function($scope, $http, Config) {
 
-.controller('PlaylistCtrl', function($scope, $stateParams) {
+	 $http.get(Config.api + '/zoneEpidemie/getJSON/').success(function(data) {
+	      $scope.circles = [];
+	      $scope.markers = [];
+	      id = 1;
+	      data.forEach(function(e) {
+		$scope.circles.push({
+		      id: id,
+		      center: {
+			  latitude: parseInt(e.coordonneX),
+			  longitude: parseInt(e.coordonneY)
+		      },
+		      radius: parseInt(e.radius),
+		      stroke: {
+			  color: '#F00',
+			  weight: 2,
+			  opacity: 1
+		      },
+		      fill: {
+			  color: '#F00',
+			  opacity: 0.5
+		      }
+		  });
+		$scope.markers.push({
+			  latitude: parseInt(e.coordonneX),
+			  longitude: parseInt(e.coordonneY),
+			  title:"ddd"
+		});
+		id++;
+	      });
+	      
+	      console.log(data);
+	      console.log($scope.circles);
+	   
+	});
+  
+  
+	$scope.map = { center: { latitude: 6.652640, longitude: -9.352199 }, zoom: 8 };
+	
+
+	
+        
+}]).controller('DiagnosisCtrl', function($scope) {
+  $scope.symptoms = [
+    {
+      id:1,
+      name:"Mal au bras"   
+    },
+    {
+      id:2,
+      name:"Fièvre"
+    }
+  ];
+  
+  $scope.diseases = [
+    {
+      id:1,
+      name:"Ebola",
+      symptoms:[1,2]
+    }
+  ];
+  
+  $scope.warningMessage = false;
+  
+  $scope.equalArrays = function(arr1, arr2){
+    if (arr1.length !== arr2.length) return false;
+    for (var i = 0, len = arr1.length; i < len; i++){
+        if (arr1[i] !== arr2[i]){
+            return false;
+        }
+    }
+    return true; 
+}
+  
+  $scope.doDiagnostic = function() {
+    
+      symptomsConfirmed = [];
+    
+      $scope.symptoms.forEach(function(s) {
+	  if(s.checked) {
+	      symptomsConfirmed.push(s.id);
+	  }
+      });
+      symptomsConfirmed.sort();
+      
+      $scope.matchingDiseases = [];
+      
+      $scope.diseases.forEach(function(d) {
+	  console.log(symptomsConfirmed);
+	  d.symptoms.sort();
+	  if( $scope.equalArrays(d.symptoms, symptomsConfirmed))
+	    $scope.matchingDiseases.push(d);
+      });
+      
+      $scope.diagnosticOk = $scope.matchingDiseases.length==0;
+  }
+  
+  
 });
+
