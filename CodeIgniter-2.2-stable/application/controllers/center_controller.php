@@ -17,25 +17,19 @@ class Center_Controller extends CI_Controller {
 
 	public function create()
 	{
+		$n = 'Centre de ittleheim';
+		$x = 45.566;
+		$y = 87.55657;
+		$t = 'VACCINATION';
+
+		Center_Model::create($n, $x, $y, $t);
 
 	}
 
 	public function read()
 	{
 		$tab_all_centers = Center_Model::read();
-		$outp = "[";
-		foreach($tab_all_centers as $value) {
-			/*if ($outp != "[") 
-				$outp .= ",";*/
-			echo $value->get_name();
-			echo "bla";
-			/*$outp .= '{"Name":"'  . $value->get_name() . '",';
-			$outp .= '"Longitude":"' . $value->get_longitude() . '",';
-			$outp .= '"Latitude":"'. $value->get_latitude() . '"}';
-			$outp .= '"Type":"'. $value->get_type() . '"}';*/
-		}
-		$outp .="]";
-		echo($outp);
+		echo(json_encode($tab_all_centers));
 	}
 
 	public function edit()

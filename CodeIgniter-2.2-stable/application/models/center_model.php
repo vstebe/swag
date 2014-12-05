@@ -1,6 +1,6 @@
 <?php
 
-	class Center_Model extends CI_Model {
+	class Center_Model extends CI_Model{
 
 		private $_id;
 		private $_name;
@@ -10,13 +10,8 @@
 
 		private static $_db;
 
-		 public  function __construc($id, $n, $x, $y, $t){
-			parent::__construct();
-			$this->set_id($id);
-			$this->set_name($n);
-			$this->set_latitude($x);
-			$this->set_longitude($x);
-			$this->set_type($t);
+		 public  function __construct(){
+		 	parent::__construct();
 
 		}
 
@@ -47,7 +42,7 @@
 		}
 
 		public function set_type($type){
-			if(is_string($type) && ($type == "V" || $type == "D")){
+			if(is_string($type) && ($type == "VACCINATION" || $type == "DEPISTAGE")){
 				$this->_type = $type;
 			}
 		}
@@ -76,28 +71,33 @@
 
 
 
-		public function create(){
+		public static function create($n, $x, $y, $t){
+
+			$c = new Center_Model();
+
+			$c->set_name($n);
+			$c->set_latitude($x);
+			$c->set_longitude($y);
+			$c->set_type($t);
 
 			$q = self::$_db->prepare('INSERT INTO centre SET nom=:n, coordonneX=:x, coordonneY=:y, type=:t');
-			$q->bindValue(':n', $this->get_name(), PDO::PARAM_STR);
-			$q->bindValue(':x', $this->get_longitude(), PDO::PARAM_INT);
-			$q->bindValue(':y', $this->get_latitude(), PDO::PARAM_INT);
-			$q->bindValue(':t', $this->get_type(), PDO::PARAM_STR);
+			$q->bindValue(':n', $c->get_name(), PDO::PARAM_STR);
+			$q->bindValue(':x', $c->get_longitude(), PDO::PARAM_INT);
+			$q->bindValue(':y', $c->get_latitude(), PDO::PARAM_INT);
+			$q->bindValue(':t', $c->get_type(), PDO::PARAM_STR);
 			$q->execute();
 
-			$this->set_id(self::$_db->lastInsertId());
+			$c->set_id(self::$_db->lastInsertId());
+
+			return $c;
 		}
 
 		public static function read(){
 			$centres = array();
 			$q = self::$_db->query('SELECT * FROM centre');
-			while ($data = $q->fetch(PDO::FETCH_ASSOC)) {
-				$centres[] = new Center_Model($data["id"], $data["nom"], $data["coordonneX"], $data["coordonneY"], $data["type"]);
-				//echo $data["nom"];
-
+			while($data = $q->fetch(PDO::FETCH_ASSOC)) {
+				$centres[] = $data;
 			}
-			echo 'test'.$centres[0];
-			/*print_r($centres);*/
 			return $centres;
 		} 
 
