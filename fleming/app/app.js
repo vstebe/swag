@@ -1,4 +1,4 @@
-angular.module('fleming', ['ngRoute']);
+angular.module('fleming', ['ngRoute', 'ui.bootstrap']);
 
 angular.module('fleming')
 	.config(['$routeProvider', '$locationProvider', function($routeProvider, $locationProvider) {
