@@ -9,9 +9,8 @@ class ZoneEpidemie extends CI_Controller
 		$this->load->model('zoneEpidemie_model');
 		zoneEpidemie_model::set_db(new PDO('mysql:host=localhost;dbname=swag','root',''));
 		$this->zoneEpidemie = zoneEpidemie_model::read_all();
-
-
 	}
+	
 	public function index()
 	{
 		echo 'Hello World!';
