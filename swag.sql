@@ -195,7 +195,11 @@ CREATE TABLE IF NOT EXISTS `zoneepidemie` (
 
 INSERT INTO `zoneepidemie` (`id`, `coordonneX`, `coordonneY`, `radius`, `fk_maladie`) VALUES
 (1, 58.5, 39, 20, 1),
-(2, 57, 30, 10, 2);
+(2, 57, 30, 10, 2),
+(3, 43.509151, 16.451947, 200, 4),
+(4, 46.141239, 5.432379, 50, 3),
+(3, 29.985721, -95.405027, 300, 4);
+
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
