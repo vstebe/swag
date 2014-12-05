@@ -1,3 +1,12 @@
+@font-face {
+	font-family: UbuntuRegular;
+    src: url(../fonts/ubuntu/Ubuntu-R.ttf);
+}
+
+body {
+	font: 15px UbuntuRegular;
+}
+
 .action-circle.big {
 	width: 200px;
 	height: 200px;
@@ -22,6 +31,7 @@
 }
 
 .action-circle {
+	z-index: 100;
 	position: absolute;
 	top: 250px;
 	width: 120px;
@@ -32,9 +42,124 @@
 	border: none;
 	box-shadow: 0 2px 4px #000;
 	color: #fff;
-	transition: width 0.2s, height 0.2s, margin-left 0.2s, box-shadow 0.3s;
+	transition: all 0.3s;
+}
+
+.action-circle.to-left {
+	left: 0;
+	margin-left: 50px;
+}
+
+.action-circle.to-left.center {
+	top: 320px;
+}
+
+.action-circle.to-left.diagnostic {
+	top: 180px;
 }
 
 .action-circle:hover {
 	box-shadow: 0 8px 14px #000;
+}
+
+.action-circle.be-bar {
+	top: 0 !important;
+	left: 0;
+	margin-left: 0;
+	border-radius: 0;
+	width: 100%;
+	height: 50px;
+	box-shadow: 0 0 2px #000;
+}
+
+.angular-google-map,
+.angular-google-map-container {
+	position: absolute;
+	z-index: 50;
+	height: 100%;
+	width: 100%;
+}
+
+.container {
+	position: absolute;
+	z-index: 70;
+	width: 500px;
+	background: #fff;
+	padding: 20px;
+	left: 50%;
+	top: -800px;
+	margin-left: -270px;
+	transition: all 0.5s;
+	box-shadow: 0 1px 2px #000;
+}
+
+.container.show {
+	top: 100px;
+}
+
+.container.diagnostic {
+	box-shadow: 0 1px 2px #004d40;
+}
+
+input[type=text] {
+	background: none;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	border-bottom: 2px solid #009688;
+	outline: none;
+	width: 100%;
+	height: 30px;
+	font: 15px UbuntuRegular;
+	margin-bottom: 15px;
+}
+
+.opaque {
+	position: absolute;
+	z-index: 65;
+	background: #e0f2f1;
+	height: 100%;
+	width: 100%;
+	transition: background 0.5s;
+}
+
+.item {
+	padding: 5px 20px;
+	border-bottom: 1px dashed #009688;
+}
+
+button {
+	font: 15px UbuntuRegular;
+	color: #fff;
+	outline: none;
+}
+
+button.button-positive {
+	width: 100%;
+	height: 35px;
+	background: #009688;
+	border: none;
+	margin: 10px 0;
+	transition: box-shadow 0.1s;
+	box-shadow: 0 1px 2px #004d40;
+}
+
+button.button-positive:hover{
+	box-shadow: 0 2px 4px #004d40;	
+}
+
+.warning {
+	color: #F44336;
+}
+
+.good {
+	color: #4CAF50;
+}
+
+.center {
+	text-align: center;
+}
+
+.dont-stick-bottom {
+	margin-bottom: 20px;
 }
