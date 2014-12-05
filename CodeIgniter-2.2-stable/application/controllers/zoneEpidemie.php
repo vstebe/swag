@@ -7,7 +7,8 @@ class Zoneepidemie extends CI_Controller
 	{
 		parent::__construct();
 		$this->load->model('Zoneepidemie_model');
-		zoneepidemie_model::set_db(new PDO('mysql:host=stebe.fr;dbname=swag','root','choucroute'));
+		$this->load->database();
+		zoneepidemie_model::set_db(new PDO($this->db->dbdriver.':host='.$this->db->hostname.';dbname='.$this->db->database,$this->db->username ,$this->db->password  ));
 		$this->zoneEpidemie = zoneEpidemie_model::read_all();
 	}
 	
