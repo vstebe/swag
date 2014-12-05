@@ -27,6 +27,7 @@ class Maladie_Controller extends CI_Controller {
 		header('Content-Type: application/json; charset=utf-8');
 
 		$tab_all_maladies = Maladie_Model::read();
+		//print_r($tab_all_maladies);
 		echo(json_encode($tab_all_maladies));
 	}
 
