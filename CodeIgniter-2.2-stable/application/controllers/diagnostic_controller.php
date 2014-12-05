@@ -6,8 +6,8 @@ class Diagnostic_Controller extends CI_Controller {
 	{
 		parent::__construct();
 		$this->load->model("Diagnostic_Model");
-		Diagnostic_Model::set_db(new PDO('mysql:host=localhost;dbname=swag','root',''));
-
+		$this->load->database();
+		Diagnostic_Model::set_db(new PDO($this->db->dbdriver.':host='.$this->db->hostname.';dbname='.$this->db->database,$this->db->username ,$this->db->password  ));
 	}
 
 	public function coucou() {
