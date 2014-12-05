@@ -1,3 +1,34 @@
-<li>
-	<span ng-click="openModal()">Open Modal</span>
-</li>
+<div>
+	<ul class="list">
+
+  <li class="item item-checkbox" ng-repeat="s in symptoms">
+     <label class="checkbox">
+       <input type="checkbox" ng-model="s.checked">
+     </label>
+     {{s.name}}
+  </li>
+
+
+</ul>
+
+<button class="button button-block button-positive" ng-click="doDiagnostic()">
+  Faire un diagnostic
+</button>
+
+
+<div class="card" ng-show="matchingDiseases.length >0">
+  <div class="center warning">
+    Attention : les symptômes correspondent avec les maladies :
+    <ul>
+      <li ng-repeat="m in matchingDiseases">{{m.name}}</li>
+    </ul>
+  </div>
+</div>
+
+<div class="card" ng-show="diagnosticOk">
+  <div class="dont-stick-bottom center good">
+    Les symptômes ne correpondent à aucune maladie connue.
+  </div>
+</div>
+
+</div>
