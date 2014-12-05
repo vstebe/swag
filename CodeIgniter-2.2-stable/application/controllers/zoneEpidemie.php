@@ -1,13 +1,15 @@
 <?php
-class ZoneEpidemie extends CI_Controller {
+class ZoneEpidemie extends CI_Controller 
+{
+	private $zoneEpidemie;
 
 	public function __construct()
 	{
 		parent::__construct();
 		$this->load->model('zoneEpidemie_model');
 		zoneEpidemie_model::set_db(new PDO('mysql:host=localhost;dbname=swag','root',''));
-		$test = zoneEpidemie_model::read_all();
-		print_r($test);
+		$this->zoneEpidemie = zoneEpidemie_model::read_all();
+
 
 	}
 	public function index()
@@ -17,7 +19,8 @@ class ZoneEpidemie extends CI_Controller {
 
 	public function getJSON()
 	{
-		
+		$json_e = json_encode($this->zoneEpidemie);
+		print($json_e);
 	}
 }
 ?>
