@@ -1,6 +1,6 @@
 <?php
 
-class zoneEpidemie_model extends CI_Model
+class Zoneepidemie_model extends CI_Model
 {
 
 	private static $_db;
