@@ -6,8 +6,8 @@ class Maladie_Controller extends CI_Controller {
 	{
 		parent::__construct();
 		$this->load->model("Maladie_Model");
-		Maladie_Model::set_db(new PDO('mysql:host=localhost;dbname=swag','root',''));
-
+		$this->load->database();
+		Maladie_Model::set_db(new PDO($this->db->dbdriver.':host='.$this->db->hostname.';dbname='.$this->db->database,$this->db->username ,$this->db->password  ));
 	}
 
 	public function coucou() {
@@ -27,6 +27,7 @@ class Maladie_Controller extends CI_Controller {
 		header('Content-Type: application/json; charset=utf-8');
 
 		$tab_all_maladies = Maladie_Model::read();
+		//print_r($tab_all_maladies);
 		echo(json_encode($tab_all_maladies));
 	}
 

@@ -1,12 +1,16 @@
 <?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
 
+/*require_once('config/database.php');*/
+
 class Center_Controller extends CI_Controller {
 
 	public function __construct()
 	{
 		parent::__construct();
 		$this->load->model("Center_Model");
-		Center_Model::set_db(new PDO('mysql:host=stebe.fr;dbname=swag','root','choucroute'));
+
+		$this->load->database();
+		Center_Model::set_db(new PDO($this->db->dbdriver.':host='.$this->db->hostname.';dbname='.$this->db->database,$this->db->username ,$this->db->password  ));
 
 	}
 
