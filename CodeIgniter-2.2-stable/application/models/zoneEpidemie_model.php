@@ -10,8 +10,8 @@ class zoneEpidemie_model extends CI_Model
     {
         parent::__construct();
 
-
     }
+
     public static function set_db(PDO $db)
     {
 		self::$_db = $db;
@@ -32,7 +32,6 @@ class zoneEpidemie_model extends CI_Model
 			$zones[] = $data;
 		}
 		return $zones;
-		 
 	}
 
 

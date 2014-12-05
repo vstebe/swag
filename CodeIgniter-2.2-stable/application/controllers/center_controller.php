@@ -6,7 +6,7 @@ class Center_Controller extends CI_Controller {
 	{
 		parent::__construct();
 		$this->load->model("Center_Model");
-		Center_Model::set_db(new PDO('mysql:host=localhost;dbname=swag','root',''));
+		Center_Model::set_db(new PDO('mysql:host=stebe.fr;dbname=swag','root','choucroute'));
 
 	}
 
