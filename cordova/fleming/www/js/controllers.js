@@ -37,7 +37,6 @@ angular.module('starter.controllers', [])
 
 	 $http.get(Config.api + '/zoneEpidemie/getJSON/').success(function(data) {
 	      $scope.circles = [];
-	      $scope.markers = [];
 	      id = 1;
 	      data.forEach(function(e) {
 		$scope.circles.push({
@@ -57,11 +56,6 @@ angular.module('starter.controllers', [])
 			  opacity: 0.5
 		      }
 		  });
-		$scope.markers.push({
-			  latitude: parseInt(e.coordonneX),
-			  longitude: parseInt(e.coordonneY),
-			  title:"ddd"
-		});
 		id++;
 	      });
 	      
@@ -69,11 +63,35 @@ angular.module('starter.controllers', [])
 	      console.log($scope.circles);
 	   
 	});
-  
+	 
+	 $http.get(Config.api + '/center_controller/getJSON/').success(function(data) {
+	      $scope.markers = [];
+	      id = 1;
+	      data.forEach(function(e) {
+	 		$scope.markers.push({
+			  latitude: parseInt(e.coordonneX),
+			  longitude: parseInt(e.coordonneY),
+			  nom:e.nom,
+			  type:e.type,
+			  id:id
+			});
+		      id++;
+		});
+	      console.log(data);
+	      console.log($scope.circles);
+	   
+	});
   
 	$scope.map = { center: { latitude: 6.652640, longitude: -9.352199 }, zoom: 8 };
 	
 
+		 $http.get('http://stebe.fr/nuit/swag/script-social/ebola.php').success(function(data) {
+		  $scope.text = "";
+		   data.forEach(function(t) {
+		     $scope.text += t.text + " - ";
+		  });
+	   
+	});
 	
         
 }]).controller('DiagnosisCtrl', function($scope) {
