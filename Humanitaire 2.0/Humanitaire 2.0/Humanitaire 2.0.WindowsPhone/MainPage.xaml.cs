@@ -22,10 +22,11 @@ namespace Humanitaire_2._0
     /// </summary>
     public sealed partial class MainPage : Page
     {
+        public bool menuOpen { get; set; }
+        
         public MainPage()
         {
             this.InitializeComponent();
-
             this.NavigationCacheMode = NavigationCacheMode.Required;
         }
 
@@ -43,6 +44,46 @@ namespace Humanitaire_2._0
             // Windows.Phone.UI.Input.HardwareButtons.BackPressed event.
             // If you are using the NavigationHelper provided by some templates,
             // this event is handled for you.
+        }
+
+        private void Image_Tapped(object sender, TappedRoutedEventArgs e)
+        {
+            if(this.menuOpen == true)
+            {
+                this.menu.Margin = new Thickness(-150,0,0,0);
+                this.menuOpen = false;
+            }
+            else 
+            {
+                this.menu.Margin = new Thickness(0, 0, 0, 0);
+                this.menuOpen = true; 
+            }
+        }
+
+        private void TextBlockActu_Tapped(object sender, TappedRoutedEventArgs e)
+        {
+            this.Actualite.Visibility = Windows.UI.Xaml.Visibility.Visible;
+            this.Contribution.Visibility = Windows.UI.Xaml.Visibility.Collapsed;
+            this.Map.Visibility = Windows.UI.Xaml.Visibility.Collapsed;
+            this.menu.Margin = new Thickness(-150, 0, 0, 0);
+        }
+
+        private void TextBlockContri_Tapped(object sender, TappedRoutedEventArgs e)
+        {
+            this.Actualite.Visibility = Windows.UI.Xaml.Visibility.Collapsed;
+            this.Contribution.Visibility = Windows.UI.Xaml.Visibility.Visible;
+            this.Map.Visibility = Windows.UI.Xaml.Visibility.Collapsed;
+
+            this.menu.Margin = new Thickness(-150, 0, 0, 0);
+        }
+
+        private void TextBlockMap_Tapped(object sender, TappedRoutedEventArgs e)
+        {
+            this.Actualite.Visibility = Windows.UI.Xaml.Visibility.Collapsed;
+            this.Contribution.Visibility = Windows.UI.Xaml.Visibility.Collapsed;
+            this.Map.Visibility = Windows.UI.Xaml.Visibility.Visible;
+
+            this.menu.Margin = new Thickness(-150, 0, 0, 0);
         }
     }
 }
