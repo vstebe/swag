@@ -13,5 +13,8 @@
 		<link rel="stylesheet" type="text/css" href="css/demo.css" />
 		<link rel="stylesheet" type="text/css" href="css/component.css" />
 		<script src="js/modernizr.custom.js"></script>
-		<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAlJYekG6M3uLfE8C07BuM3_i_EDxcoz9U"></script>
+		<script src="jquery-2.1.1/jquery.min.js"></script>
+		<script src="bootstrap-3.3.0/js/bootstrap.min.js"></script>
+		<script src="jquery-ui-1.11.2/jquery-ui.min.js"></script>
+		<script src="js/main.js"></script>
 	</head>

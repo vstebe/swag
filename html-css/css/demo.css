@@ -11,7 +11,7 @@
 }
 
 body {
-	background: #34495e;
+	background: #420000;
 }
 
 .container-fluid > header,
@@ -28,13 +28,13 @@ body {
 }
 
 .container-fluid > header a {
-	color: #566473;
+	color: lightgrey;
 	text-decoration: none;
 	outline: none;
 }
 
 .container-fluid > header a:hover {
-	color: #4f7bab;
+	color: #grey;
 }
 
 .container-fluid > header h1 {
@@ -141,5 +141,14 @@ body {
 	.codrops-icon span {
 		display: none;
 	}
+
+}
+
+footer {
+	position: absolute;
+	bottom: 0;
+	height: 75px;
+	width: 100%;
+	background-color: white;
 
 }
