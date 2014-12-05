@@ -1,0 +1,52 @@
+C:\Users\Dylan\Documents\Visual Studio 2013\Projects\swag\Humanitaire 2.0\Humanitaire 2.0\Humanitaire 2.0.WindowsPhone\bin\Debug\App.xbf
+C:\Users\Dylan\Documents\Visual Studio 2013\Projects\swag\Humanitaire 2.0\Humanitaire 2.0\Humanitaire 2.0.WindowsPhone\bin\Debug\Humanitaire 2.0.WindowsPhone.xr.xml
+C:\Users\Dylan\Documents\Visual Studio 2013\Projects\swag\Humanitaire 2.0\Humanitaire 2.0\Humanitaire 2.0.WindowsPhone\bin\Debug\Humanitaire 2.0.WindowsPhone.exe
+C:\Users\Dylan\Documents\Visual Studio 2013\Projects\swag\Humanitaire 2.0\Humanitaire 2.0\Humanitaire 2.0.WindowsPhone\bin\Debug\Humanitaire 2.0.WindowsPhone.pdb
+C:\Users\Dylan\Documents\Visual Studio 2013\Projects\swag\Humanitaire 2.0\Humanitaire 2.0\Humanitaire 2.0.WindowsPhone\bin\Debug\resources.pri
+C:\Users\Dylan\Documents\Visual Studio 2013\Projects\swag\Humanitaire 2.0\Humanitaire 2.0\Humanitaire 2.0.WindowsPhone\bin\Debug\AppxManifest.xml
+C:\Users\Dylan\Documents\Visual Studio 2013\Projects\swag\Humanitaire 2.0\Humanitaire 2.0\Humanitaire 2.0.WindowsPhone\bin\Debug\Humanitaire 2.0.WindowsPhone.build.appxrecipe
+C:\Users\Dylan\Documents\Visual Studio 2013\Projects\swag\Humanitaire 2.0\Humanitaire 2.0\Humanitaire 2.0.WindowsPhone\obj\Debug\App.g.i.cs
+C:\Users\Dylan\Documents\Visual Studio 2013\Projects\swag\Humanitaire 2.0\Humanitaire 2.0\Humanitaire 2.0.WindowsPhone\obj\Debug\App.g.cs
+C:\Users\Dylan\Documents\Visual Studio 2013\Projects\swag\Humanitaire 2.0\Humanitaire 2.0\Humanitaire 2.0.WindowsPhone\obj\Debug\XamlTypeInfo.g.cs
+C:\Users\Dylan\Documents\Visual Studio 2013\Projects\swag\Humanitaire 2.0\Humanitaire 2.0\Humanitaire 2.0.WindowsPhone\obj\Debug\App.xaml
+C:\Users\Dylan\Documents\Visual Studio 2013\Projects\swag\Humanitaire 2.0\Humanitaire 2.0\Humanitaire 2.0.WindowsPhone\obj\Debug\App.xbf
+C:\Users\Dylan\Documents\Visual Studio 2013\Projects\swag\Humanitaire 2.0\Humanitaire 2.0\Humanitaire 2.0.WindowsPhone\obj\Debug\XamlSaveStateFile.xml
+C:\Users\Dylan\Documents\Visual Studio 2013\Projects\swag\Humanitaire 2.0\Humanitaire 2.0\Humanitaire 2.0.WindowsPhone\obj\Debug\Humanitaire 2.0.WindowsPhone.exe
+C:\Users\Dylan\Documents\Visual Studio 2013\Projects\swag\Humanitaire 2.0\Humanitaire 2.0\Humanitaire 2.0.WindowsPhone\obj\Debug\Humanitaire 2.0.WindowsPhone.pdb
+C:\Users\Dylan\Documents\Visual Studio 2013\Projects\swag\Humanitaire 2.0\Humanitaire 2.0\Humanitaire 2.0.WindowsPhone\obj\Debug\priconfig.xml
+C:\Users\Dylan\Documents\Visual Studio 2013\Projects\swag\Humanitaire 2.0\Humanitaire 2.0\Humanitaire 2.0.WindowsPhone\obj\Debug\priconfig.xml.intermediate
+C:\Users\Dylan\Documents\Visual Studio 2013\Projects\swag\Humanitaire 2.0\Humanitaire 2.0\Humanitaire 2.0.WindowsPhone\obj\Debug\layout.resfiles
+C:\Users\Dylan\Documents\Visual Studio 2013\Projects\swag\Humanitaire 2.0\Humanitaire 2.0\Humanitaire 2.0.WindowsPhone\obj\Debug\layout.resfiles.intermediate
+C:\Users\Dylan\Documents\Visual Studio 2013\Projects\swag\Humanitaire 2.0\Humanitaire 2.0\Humanitaire 2.0.WindowsPhone\obj\Debug\resources.resfiles
+C:\Users\Dylan\Documents\Visual Studio 2013\Projects\swag\Humanitaire 2.0\Humanitaire 2.0\Humanitaire 2.0.WindowsPhone\obj\Debug\resources.resfiles.intermediate
+C:\Users\Dylan\Documents\Visual Studio 2013\Projects\swag\Humanitaire 2.0\Humanitaire 2.0\Humanitaire 2.0.WindowsPhone\obj\Debug\pri.resfiles
+C:\Users\Dylan\Documents\Visual Studio 2013\Projects\swag\Humanitaire 2.0\Humanitaire 2.0\Humanitaire 2.0.WindowsPhone\obj\Debug\pri.resfiles.intermediate
+C:\Users\Dylan\Documents\Visual Studio 2013\Projects\swag\Humanitaire 2.0\Humanitaire 2.0\Humanitaire 2.0.WindowsPhone\obj\Debug\qualifiers.txt
+C:\Users\Dylan\Documents\Visual Studio 2013\Projects\swag\Humanitaire 2.0\Humanitaire 2.0\Humanitaire 2.0.WindowsPhone\obj\Debug\qualifiers.txt.intermediate
+C:\Users\Dylan\Documents\Visual Studio 2013\Projects\swag\Humanitaire 2.0\Humanitaire 2.0\Humanitaire 2.0.WindowsPhone\obj\Debug\MultipleQualifiersPerDimensionFound.txt
+C:\Users\Dylan\Documents\Visual Studio 2013\Projects\swag\Humanitaire 2.0\Humanitaire 2.0\Humanitaire 2.0.WindowsPhone\obj\Debug\ProjectArchitectures.txt
+C:\Users\Dylan\Documents\Visual Studio 2013\Projects\swag\Humanitaire 2.0\Humanitaire 2.0\Humanitaire 2.0.WindowsPhone\bin\Debug\MainPage.xbf
+C:\Users\Dylan\Documents\Visual Studio 2013\Projects\swag\Humanitaire 2.0\Humanitaire 2.0\Humanitaire 2.0.WindowsPhone\obj\Debug\MainPage.g.i.cs
+C:\Users\Dylan\Documents\Visual Studio 2013\Projects\swag\Humanitaire 2.0\Humanitaire 2.0\Humanitaire 2.0.WindowsPhone\obj\Debug\MainPage.g.cs
+C:\Users\Dylan\Documents\Visual Studio 2013\Projects\swag\Humanitaire 2.0\Humanitaire 2.0\Humanitaire 2.0.WindowsPhone\obj\Debug\MainPage.xaml
+C:\Users\Dylan\Documents\Visual Studio 2013\Projects\swag\Humanitaire 2.0\Humanitaire 2.0\Humanitaire 2.0.WindowsPhone\obj\Debug\MainPage.xbf
+C:\Users\Dylan\Documents\Visual Studio 2013\Projects\swag\Humanitaire 2.0\Humanitaire 2.0\Humanitaire 2.0.WindowsPhone\bin\Debug\Pages\Actualité.xbf
+C:\Users\Dylan\Documents\Visual Studio 2013\Projects\swag\Humanitaire 2.0\Humanitaire 2.0\Humanitaire 2.0.WindowsPhone\bin\Debug\Pages\Map.xbf
+C:\Users\Dylan\Documents\Visual Studio 2013\Projects\swag\Humanitaire 2.0\Humanitaire 2.0\Humanitaire 2.0.WindowsPhone\obj\Debug\Pages\Actualité.g.i.cs
+C:\Users\Dylan\Documents\Visual Studio 2013\Projects\swag\Humanitaire 2.0\Humanitaire 2.0\Humanitaire 2.0.WindowsPhone\obj\Debug\Pages\Actualité.g.cs
+C:\Users\Dylan\Documents\Visual Studio 2013\Projects\swag\Humanitaire 2.0\Humanitaire 2.0\Humanitaire 2.0.WindowsPhone\obj\Debug\Pages\Map.g.i.cs
+C:\Users\Dylan\Documents\Visual Studio 2013\Projects\swag\Humanitaire 2.0\Humanitaire 2.0\Humanitaire 2.0.WindowsPhone\obj\Debug\Pages\Map.g.cs
+C:\Users\Dylan\Documents\Visual Studio 2013\Projects\swag\Humanitaire 2.0\Humanitaire 2.0\Humanitaire 2.0.WindowsPhone\obj\Debug\Pages\Actualité.xaml
+C:\Users\Dylan\Documents\Visual Studio 2013\Projects\swag\Humanitaire 2.0\Humanitaire 2.0\Humanitaire 2.0.WindowsPhone\obj\Debug\Pages\Map.xaml
+C:\Users\Dylan\Documents\Visual Studio 2013\Projects\swag\Humanitaire 2.0\Humanitaire 2.0\Humanitaire 2.0.WindowsPhone\obj\Debug\Pages\Actualité.xbf
+C:\Users\Dylan\Documents\Visual Studio 2013\Projects\swag\Humanitaire 2.0\Humanitaire 2.0\Humanitaire 2.0.WindowsPhone\obj\Debug\Pages\Map.xbf
+C:\Users\Dylan\Documents\Visual Studio 2013\Projects\swag\Humanitaire 2.0\Humanitaire 2.0\Humanitaire 2.0.WindowsPhone\obj\Debug\Pages\Contribution.g.i.cs
+C:\Users\Dylan\Documents\Visual Studio 2013\Projects\swag\Humanitaire 2.0\Humanitaire 2.0\Humanitaire 2.0.WindowsPhone\obj\Debug\Pages\Contribution.g.cs
+C:\Users\Dylan\Documents\Visual Studio 2013\Projects\swag\Humanitaire 2.0\Humanitaire 2.0\Humanitaire 2.0.WindowsPhone\obj\Debug\Pages\Contribution.xaml
+C:\Users\Dylan\Documents\Visual Studio 2013\Projects\swag\Humanitaire 2.0\Humanitaire 2.0\Humanitaire 2.0.WindowsPhone\obj\Debug\Pages\Contribution.xbf
+C:\Users\Dylan\Documents\Visual Studio 2013\Projects\swag\Humanitaire 2.0\Humanitaire 2.0\Humanitaire 2.0.WindowsPhone\bin\Debug\Pages\Contribution.xbf
+C:\Users\Dylan\Documents\Visual Studio 2013\Projects\swag\Humanitaire 2.0\Humanitaire 2.0\Humanitaire 2.0.WindowsPhone\bin\Debug\ControlUser\ActuItem.xbf
+C:\Users\Dylan\Documents\Visual Studio 2013\Projects\swag\Humanitaire 2.0\Humanitaire 2.0\Humanitaire 2.0.WindowsPhone\obj\Debug\ControlUser\ActuItem.g.i.cs
+C:\Users\Dylan\Documents\Visual Studio 2013\Projects\swag\Humanitaire 2.0\Humanitaire 2.0\Humanitaire 2.0.WindowsPhone\obj\Debug\ControlUser\ActuItem.g.cs
+C:\Users\Dylan\Documents\Visual Studio 2013\Projects\swag\Humanitaire 2.0\Humanitaire 2.0\Humanitaire 2.0.WindowsPhone\obj\Debug\ControlUser\ActuItem.xaml
+C:\Users\Dylan\Documents\Visual Studio 2013\Projects\swag\Humanitaire 2.0\Humanitaire 2.0\Humanitaire 2.0.WindowsPhone\obj\Debug\ControlUser\ActuItem.xbf

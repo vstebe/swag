@@ -26,7 +26,7 @@ class Center_Controller extends CI_Controller {
 
 	}
 
-	public function read()
+	public function getjson()
 	{
 		$tab_all_centers = Center_Model::read();
 		echo(json_encode($tab_all_centers));

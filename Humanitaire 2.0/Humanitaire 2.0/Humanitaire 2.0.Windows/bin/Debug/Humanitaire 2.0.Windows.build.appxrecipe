@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>INSPIRON</Machine>
+    <WindowsUser>Dylan</WindowsUser>
+    <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>6d7daf62-7181-4a2b-af61-649bb079d428</PackageIdentityName>
+    <IntermediateOutputPath>C:\Users\Dylan\Documents\Visual Studio 2013\Projects\swag\Humanitaire 2.0\Humanitaire 2.0\Humanitaire 2.0.Windows\obj\Debug\</IntermediateOutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\Dylan\Documents\Visual Studio 2013\Projects\swag\Humanitaire 2.0\Humanitaire 2.0\Humanitaire 2.0.Windows\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\Dylan\Documents\Visual Studio 2013\Projects\swag\Humanitaire 2.0\Humanitaire 2.0\Humanitaire 2.0.Windows\bin\Debug\Humanitaire 2.0.Windows.exe">
+      <PackagePath>Humanitaire 2.0.Windows.exe</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dylan\Documents\Visual Studio 2013\Projects\swag\Humanitaire 2.0\Humanitaire 2.0\Humanitaire 2.0.Windows\Assets\Logo.scale-100.png">
+      <PackagePath>Assets\Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dylan\Documents\Visual Studio 2013\Projects\swag\Humanitaire 2.0\Humanitaire 2.0\Humanitaire 2.0.Windows\Assets\SmallLogo.scale-100.png">
+      <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dylan\Documents\Visual Studio 2013\Projects\swag\Humanitaire 2.0\Humanitaire 2.0\Humanitaire 2.0.Windows\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dylan\Documents\Visual Studio 2013\Projects\swag\Humanitaire 2.0\Humanitaire 2.0\Humanitaire 2.0.Windows\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dylan\Documents\Visual Studio 2013\Projects\swag\Humanitaire 2.0\Humanitaire 2.0\Humanitaire 2.0.Windows\bin\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dylan\Documents\Visual Studio 2013\Projects\swag\Humanitaire 2.0\Humanitaire 2.0\Humanitaire 2.0.Windows\bin\Debug\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dylan\Documents\Visual Studio 2013\Projects\swag\Humanitaire 2.0\Humanitaire 2.0\Humanitaire 2.0.Windows\bin\Debug\Humanitaire 2.0.Windows.xr.xml">
+      <PackagePath>Humanitaire 2.0.Windows.xr.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dylan\Documents\Visual Studio 2013\Projects\swag\Humanitaire 2.0\Humanitaire 2.0\Humanitaire 2.0.Windows\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

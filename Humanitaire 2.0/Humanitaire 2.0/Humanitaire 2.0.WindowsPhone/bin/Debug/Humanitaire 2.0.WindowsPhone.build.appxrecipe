@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>INSPIRON</Machine>
+    <WindowsUser>Dylan</WindowsUser>
+    <TargetPlatformIdentifier>WindowsPhoneApp</TargetPlatformIdentifier>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>81136e04-b973-40ec-b120-1496bf19bed2</PackageIdentityName>
+    <IntermediateOutputPath>C:\Users\Dylan\Documents\Visual Studio 2013\Projects\swag\Humanitaire 2.0\Humanitaire 2.0\Humanitaire 2.0.WindowsPhone\obj\Debug\</IntermediateOutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\Dylan\Documents\Visual Studio 2013\Projects\swag\Humanitaire 2.0\Humanitaire 2.0\Humanitaire 2.0.WindowsPhone\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\Dylan\Documents\Visual Studio 2013\Projects\swag\Humanitaire 2.0\Humanitaire 2.0\Humanitaire 2.0.WindowsPhone\bin\Debug\Humanitaire 2.0.WindowsPhone.exe">
+      <PackagePath>Humanitaire 2.0.WindowsPhone.exe</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dylan\Documents\Visual Studio 2013\Projects\swag\Humanitaire 2.0\Humanitaire 2.0\Humanitaire 2.0.WindowsPhone\Assets\Logo.scale-240.png">
+      <PackagePath>Assets\Logo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dylan\Documents\Visual Studio 2013\Projects\swag\Humanitaire 2.0\Humanitaire 2.0\Humanitaire 2.0.WindowsPhone\Assets\SmallLogo.scale-240.png">
+      <PackagePath>Assets\SmallLogo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dylan\Documents\Visual Studio 2013\Projects\swag\Humanitaire 2.0\Humanitaire 2.0\Humanitaire 2.0.WindowsPhone\Assets\SplashScreen.scale-240.png">
+      <PackagePath>Assets\SplashScreen.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dylan\Documents\Visual Studio 2013\Projects\swag\Humanitaire 2.0\Humanitaire 2.0\Humanitaire 2.0.WindowsPhone\Assets\Square71x71Logo.scale-240.png">
+      <PackagePath>Assets\Square71x71Logo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dylan\Documents\Visual Studio 2013\Projects\swag\Humanitaire 2.0\Humanitaire 2.0\Humanitaire 2.0.WindowsPhone\Assets\StoreLogo.scale-240.png">
+      <PackagePath>Assets\StoreLogo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dylan\Documents\Visual Studio 2013\Projects\swag\Humanitaire 2.0\Humanitaire 2.0\Humanitaire 2.0.WindowsPhone\Assets\syringe-24495_1280.png">
+      <PackagePath>Assets\syringe-24495_1280.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dylan\Documents\Visual Studio 2013\Projects\swag\Humanitaire 2.0\Humanitaire 2.0\Humanitaire 2.0.WindowsPhone\Assets\WideLogo.scale-240.png">
+      <PackagePath>Assets\WideLogo.scale-240.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dylan\Documents\Visual Studio 2013\Projects\swag\Humanitaire 2.0\Humanitaire 2.0\Humanitaire 2.0.WindowsPhone\bin\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dylan\Documents\Visual Studio 2013\Projects\swag\Humanitaire 2.0\Humanitaire 2.0\Humanitaire 2.0.WindowsPhone\bin\Debug\ControlUser\ActuItem.xbf">
+      <PackagePath>ControlUser\ActuItem.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dylan\Documents\Visual Studio 2013\Projects\swag\Humanitaire 2.0\Humanitaire 2.0\Humanitaire 2.0.WindowsPhone\bin\Debug\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dylan\Documents\Visual Studio 2013\Projects\swag\Humanitaire 2.0\Humanitaire 2.0\Humanitaire 2.0.WindowsPhone\bin\Debug\Pages\Actualité.xbf">
+      <PackagePath>Pages\Actualité.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dylan\Documents\Visual Studio 2013\Projects\swag\Humanitaire 2.0\Humanitaire 2.0\Humanitaire 2.0.WindowsPhone\bin\Debug\Pages\Contribution.xbf">
+      <PackagePath>Pages\Contribution.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dylan\Documents\Visual Studio 2013\Projects\swag\Humanitaire 2.0\Humanitaire 2.0\Humanitaire 2.0.WindowsPhone\bin\Debug\Pages\Map.xbf">
+      <PackagePath>Pages\Map.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dylan\Documents\Visual Studio 2013\Projects\swag\Humanitaire 2.0\Humanitaire 2.0\Humanitaire 2.0.WindowsPhone\bin\Debug\Humanitaire 2.0.WindowsPhone.xr.xml">
+      <PackagePath>Humanitaire 2.0.WindowsPhone.xr.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dylan\Documents\Visual Studio 2013\Projects\swag\Humanitaire 2.0\Humanitaire 2.0\Humanitaire 2.0.WindowsPhone\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

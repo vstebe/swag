@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>INSPIRON</Machine>
+    <WindowsUser>Dylan</WindowsUser>
+    <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>6d7daf62-7181-4a2b-af61-649bb079d428</PackageIdentityName>
+    <IntermediateOutputPath>C:\Users\Dylan\Documents\Visual Studio 2013\Projects\swag\Humanitaire 2.0\Humanitaire 2.0\Humanitaire 2.0.Windows\obj\Debug\</IntermediateOutputPath>
+    <RegisteredManifestChecksum>138FA1A2F0025E00F1ADD819A0998DE786B96F2B763E964D19FF07979A7E7B15</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>6d7daf62-7181-4a2b-af61-649bb079d428_1.0.0.0_neutral__5zsn8fcppn080</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>6d7daf62-7181-4a2b-af61-649bb079d428_5zsn8fcppn080!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>6d7daf62-7181-4a2b-af61-649bb079d428</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=léo</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+    <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\Dylan\Documents\Visual Studio 2013\Projects\swag\Humanitaire 2.0\Humanitaire 2.0\Humanitaire 2.0.Windows\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-12-04T20:09:09.647</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\Dylan\Documents\Visual Studio 2013\Projects\swag\Humanitaire 2.0\Humanitaire 2.0\Humanitaire 2.0.Windows\bin\Debug\Humanitaire 2.0.Windows.exe">
+      <PackagePath>Humanitaire 2.0.Windows.exe</PackagePath>
+      <Modified>2014-12-04T20:09:08.161</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dylan\Documents\Visual Studio 2013\Projects\swag\Humanitaire 2.0\Humanitaire 2.0\Humanitaire 2.0.Windows\Assets\Logo.scale-100.png">
+      <PackagePath>Assets\Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-12-04T19:41:13.101</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dylan\Documents\Visual Studio 2013\Projects\swag\Humanitaire 2.0\Humanitaire 2.0\Humanitaire 2.0.Windows\Assets\SmallLogo.scale-100.png">
+      <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-12-04T19:41:13.102</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dylan\Documents\Visual Studio 2013\Projects\swag\Humanitaire 2.0\Humanitaire 2.0\Humanitaire 2.0.Windows\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-12-04T19:41:13.104</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dylan\Documents\Visual Studio 2013\Projects\swag\Humanitaire 2.0\Humanitaire 2.0\Humanitaire 2.0.Windows\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-12-04T19:41:13.105</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dylan\Documents\Visual Studio 2013\Projects\swag\Humanitaire 2.0\Humanitaire 2.0\Humanitaire 2.0.Windows\bin\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+      <Modified>2014-12-04T20:09:07.561</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dylan\Documents\Visual Studio 2013\Projects\swag\Humanitaire 2.0\Humanitaire 2.0\Humanitaire 2.0.Windows\bin\Debug\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+      <Modified>2014-12-04T20:09:07.562</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dylan\Documents\Visual Studio 2013\Projects\swag\Humanitaire 2.0\Humanitaire 2.0\Humanitaire 2.0.Windows\bin\Debug\Humanitaire 2.0.Windows.xr.xml">
+      <PackagePath>Humanitaire 2.0.Windows.xr.xml</PackagePath>
+      <Modified>2014-12-04T20:09:07.455</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Dylan\Documents\Visual Studio 2013\Projects\swag\Humanitaire 2.0\Humanitaire 2.0\Humanitaire 2.0.Windows\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2014-12-04T20:09:09.219</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>
