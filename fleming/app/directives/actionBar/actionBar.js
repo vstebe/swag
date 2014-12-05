@@ -15,9 +15,9 @@ angular.module('fleming')
 						type: 'diagnostic'
 					},
 					{
-						title: 'Centres',
+						title: "Zones d'épidemie",
 						icon: '',
-						description: 'Présentez vous des symptômes ? Vous pensez être infecté ? Faites le test !',
+						description: 'Les zones à risque sont affichées ici;',
 						type: 'center'
 					}
 				];

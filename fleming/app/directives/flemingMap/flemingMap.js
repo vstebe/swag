@@ -4,13 +4,13 @@ angular.module('fleming')
 			restrict: 'E',
 			replace: true,
 			templateUrl: 'app/templates/flemingMap/flemingMap.html',
-			link: function (scope) {
+			controller: ['$scope', function ($scope) {
 				flemingMapHttpService.getZoneEpidemie(function(data) {
-				      scope.circles = [];
-				      scope.markers = [];
+				      $scope.circles = [];
+				      $scope.markers = [];
 				      id = 1;
 				      data.forEach(function(e) {
-					scope.circles.push({
+					$scope.circles.push({
 					      id: id,
 					      center: {
 						  latitude: parseInt(e.coordonneX),
@@ -27,7 +27,7 @@ angular.module('fleming')
 						  opacity: 0.5
 					      }
 					  });
-					scope.markers.push({
+					$scope.markers.push({
 						  latitude: parseInt(e.coordonneX),
 						  longitude: parseInt(e.coordonneY),
 						  title:"ddd"
@@ -35,13 +35,12 @@ angular.module('fleming')
 					id++;
 				      });
 				      
-				      console.log(data);
-				      console.log(scope.circles);
+
 				   
 				});
 			  
 			  
-				scope.map = { center: { latitude: 6.652640, longitude: -9.352199 }, zoom: 8 };
-			}
+				$scope.map = { center: { latitude: 6.652640, longitude: -9.352199 }, zoom: 8 };
+			}]
 		}
 	}]);
