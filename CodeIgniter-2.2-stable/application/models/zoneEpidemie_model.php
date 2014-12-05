@@ -27,9 +27,9 @@ class zoneEpidemie_model extends CI_Model
 			$q2->bindValue(':i', $data['fk_maladie'], PDO::PARAM_INT);
 			$q2->execute();
 			$string_maladie = $q2->fetch(PDO::FETCH_ASSOC);
-
-			$zones[$data['id']] = array($data['coordonneX'], $data['coordonneY'], $data['radius'], $string_maladie['nom']);
-
+			$data['maladie'] = $string_maladie['nom'];
+			unset($data['fk_maladie']);
+			$zones[] = $data;
 		}
 		return $zones;
 		 
